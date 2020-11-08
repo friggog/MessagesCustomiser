@@ -1,0 +1,11 @@
+Package: me.chewitt.cmc
+Name: MessagesCustomiser
+Depends: firmware(>= 7.0), mobilesubstrate, preferenceloader
+Version: 3.1.0
+Architecture: iphoneos-arm
+Description: Customise the colours in Messages.app (and more).
+Icon: file:///Library/PreferenceBundles/MCPrefs.bundle/icon_big.png
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Depiction: http://chewitt.me/repo/depictions/cmc.html
+Section: Tweaks

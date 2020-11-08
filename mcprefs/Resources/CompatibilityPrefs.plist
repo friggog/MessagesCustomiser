@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Most features are supported in Couria, but some (e.g. Outline Only) never will be due to the way Couria works.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>Couria</string>
+			<key>label</key>
+			<string>Couria Support</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Compatibility</string>
+</dict>
+</plist>

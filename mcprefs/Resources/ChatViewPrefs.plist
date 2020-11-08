@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>BubbleTails</string>
+			<key>id</key>
+			<string>BubbleTails</string>
+			<key>label</key>
+			<string>Bubble Tails</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Default</string>
+				<string>Show All</string>
+				<string>Hide All</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>BubbleOutlineOnly</string>
+			<key>label</key>
+			<string>Bubble Outline Only</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>FlatEdges</string>
+			<key>id</key>
+			<string>FlatEdges</string>
+			<key>label</key>
+			<string>Flat Bubble Edges</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+			<key>set</key>
+			<string>setFlatEdges:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>cpicgroup</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>SingleContactPics</string>
+			<key>id</key>
+			<string>SingleContactPics</string>
+			<key>label</key>
+			<string>Show Contact Pics (single)</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>GroupContactPics</string>
+			<key>id</key>
+			<string>GroupContactPics</string>
+			<key>negate</key>
+			<true/>
+			<key>label</key>
+			<string>Show Contact Pics (group)</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>MyContactPics</string>
+			<key>id</key>
+			<string>MyContactPics</string>
+			<key>label</key>
+			<string>Show Your Contact Pic</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Contact Pic Radius</string>
+			<key>id</key>
+			<string>cpicradgroup</string>
+			<key>footerText</key>
+			<string>Default radius is 27.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>27</integer>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>min</key>
+			<integer>10</integer>
+			<key>max</key>
+			<integer>40</integer>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>CPicRadius</string>
+			<key>id</key>
+			<string>CPicRadius</string>
+			<key>label</key>
+			<string>Contact Pic Radius</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>HideMultiRecipHeader</string>
+			<key>label</key>
+			<string>Hide Group Recipients Bar</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>PagedScrolling</string>
+			<key>label</key>
+			<string>Paged Scrolling</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Chat View</string>
+</dict>
+</plist>

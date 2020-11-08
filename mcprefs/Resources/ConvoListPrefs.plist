@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>ListContactPics</string>
+			<key>id</key>
+			<string>ListContactPics</string>
+			<key>label</key>
+			<string>Show Contact Pics</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Group Contact Pic Radius</string>
+			<key>id</key>
+			<string>cpicradgroup</string>
+			<key>footerText</key>
+			<string>Default radius is 45.</string>
+		</dict>
+		<dict>
+      	    <key>cell</key>
+          	<string>PSSliderCell</string>
+          	<key>default</key>
+          	<integer>45</integer>
+          	<key>defaults</key>
+          	<string>me.chewitt.MCPrefs</string>
+			<key>min</key>
+			<integer>20</integer>
+			<key>max</key>
+			<integer>80</integer>
+			<key>showValue</key>
+			<true/>
+      	 	<key>key</key>
+			<string>CPicRadiusList</string>
+			<key>id</key>
+			<string>CPicRadiusList</string>
+      	 	<key>label</key>
+    		<string>Contact Pic Radius</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+    	</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>HideDates</string>
+			<key>label</key>
+			<string>Hide Dates</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>HidePreviews</string>
+			<key>label</key>
+			<string>Hide Message Previews</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>HideSearchBar</string>
+			<key>label</key>
+			<string>Hide Search Bar</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Convo List</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Sliders</string>
+			<key>footerText</key>
+			<string>You can click the number at the side of the sliders in the colour preference views to manually enter your desired value.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Colours</string>
+			<key>footerText</key>
+			<string>The sections of 3 sliders available for custom colours represent Red, Green and Blue (RGB) values; these values are out of 255. You can see a live preview of your custom colour just above the sliders.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Compatibility</string>
+</dict>
+</plist>

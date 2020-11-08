@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>MCBannerCell</string>
+			<key>height</key>
+			<integer>100</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>negate</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.chewitt.MCPrefs</string>
+			<key>key</key>
+			<string>mcEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.MCPrefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Bubble Colour Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>SMS Bubbles</string>
+			<key>detail</key>
+			<string>SMSBubblesController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>iMessage Bubbles</string>
+			<key>detail</key>
+			<string>IMBubblesController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Other Person Bubbles</string>
+			<key>detail</key>
+			<string>OtherBubblesController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Other Colour Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>App Tint</string>
+			<key>detail</key>
+			<string>AppTintController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Background</string>
+			<key>detail</key>
+			<string>BackgroundController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Info Text</string>
+			<key>detail</key>
+			<string>InfoTextController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Other Settings</string>
+			<key>detail</key>
+			<string>OtherViewController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Help</string>
+			<key>detail</key>
+			<string>HelpViewController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>RESTART THE MESSAGES APP FOR ALL CHANGES TO APPLY.</string>
+			<key>alignment</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>resetDefaults</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset To Defaults</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>goToMCPro</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Upgrade to M.C. Pro</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCPrefs.bundle/pro.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openDonateLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCPrefs.bundle/paypal.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openEmailLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Email</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCPrefs.bundle/mail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openTwitterLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCPrefs.bundle/twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>MessagesCustomiser 3.0.1 © Charlie Hewitt 2015</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>M. C.</string>
+</dict>
+</plist>
